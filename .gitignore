@@ -1,4 +1,47 @@
+# --- Python ---
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Archivos de configuración/local ---
+*.env
+*.ini
+*.cfg
+*.toml
+
+# --- Logs y bases de datos temporales ---
+*.log
+*.sqlite3
+*.db
+
+# --- VSCode ---
 .vscode/
-.env
+.history/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Tests / Coverage ---
+.coverage
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*.pytest_cache/
+
+# --- Docker ---
+*.pid
+*.seed
+*.bak
+
+# --- Otros ---
+.DS_Store
+Thumbs.db
